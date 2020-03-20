@@ -1,8 +1,8 @@
-from user import User
+from model.user_model import UserModel
 
 users = [
-  User(1,"Pedro","coco"),
-  User(2, "Marielys", "swde")
+  UserModel(1,"Pedro","coco"),
+  UserModel(2, "Marielys", "swde")
 ]
 
 username_mapping = {user.username:user for user in users}
